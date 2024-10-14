@@ -50,7 +50,7 @@ YOLO 모델은 `models/adas_car_detection.pt` 파일에 저장되어 있으며, 
 
 1. **필요한 라이브러리 설치:**
    ```bash
-   pip install numpy opencv-python matplotlib torch ultralytics PyYAML pillow
+   pip install numpy opencv-python matplotlib pytorch ultralytics pandas
    ```
 
 2. **프로젝트 구조:**
