@@ -27,26 +27,28 @@ YOLO 모델은 `models/adas_car_detection.pt` 파일에 저장되어 있으며, 
 차선 검출을 위해 NestedUNet 아키텍처를 사용합니다. 이 모델은 `pytorch-nested-unet` 디렉토리에서 훈련되고 관리됩니다.
 
 ## 📁 파일 설명
-### 1. adas_image.ipynb 🖼️
+### 1. adas_model.ipynb 🔧
+ADAS 시스템의 핵심 구성 요소를 개발하는 전체 워크플로우를 포함합니다.
+- 📥 데이터셋 다운로드 및 전처리
+- 🏋️ YOLO 모델 훈련 및 평가
+- 🛠️ NestedUNet을 이용한 차선 검출 모델 개발
+- 📊 모델 성능 평가 및 분석
+- 
+### 2. adas_image.ipynb 🖼️
 정지 이미지를 처리하여 ADAS 기능을 시연합니다.
 - 📊 이미지에서 차선 감지
 - 🔍 YOLO를 사용한 객체 감지 및 분류
 - 🚨 위험 상황 식별 및 경고 표시
 - 💾 처리된 이미지 저장
 
-### 2. adas_video.ipynb 🎥
+### 3. adas_video.ipynb 🎥
 비디오 스트림을 실시간으로 처리하여 ADAS 기능을 구현합니다.
 - 🎞️ 비디오 스트림에서 연속적인 차선 감지
 - 🏃‍♂️ YOLO를 사용한 실시간 객체 감지 및 분류
 - 🚦 동적 위험 상황 식별 및 경고 표시
 - 📼 처리된 비디오 저장
 
-### 3. adas_model.ipynb 🔧
-ADAS 시스템의 핵심 구성 요소를 개발하는 전체 워크플로우를 포함합니다.
-- 📥 데이터셋 다운로드 및 전처리
-- 🏋️ YOLO 모델 훈련 및 평가
-- 🛠️ NestedUNet을 이용한 차선 검출 모델 개발
-- 📊 모델 성능 평가 및 분석
+
 
 ## 🖼️ 결과 확인
 [이미지와 비디오 결과는 이전과 동일하게 유지]
@@ -54,7 +56,7 @@ ADAS 시스템의 핵심 구성 요소를 개발하는 전체 워크플로우를
 ## 🛠️ 설치 및 실행
 1. **필요한 라이브러리 설치:**
    ```bash
-   pip install numpy opencv-python matplotlib torch ultralytics PyYAML pillow
+   pip install numpy opencv-python matplotlib pytorch ultralytics 
    ```
 
 2. **프로젝트 구조:**
