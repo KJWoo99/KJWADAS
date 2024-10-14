@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚗 ADAS (Advanced Driver Assistance Systems) 프로젝트
+## 🚗 ADAS (Advanced Driver Assistance Systems) 프로젝트
 
 ![AutoAware Logo](https://github.com/user-attachments/assets/29708dde-6bec-4741-8185-6e4d7bf6c01c)
 
@@ -49,11 +49,11 @@ ADAS 시스템의 핵심 구성 요소를 개발하는 전체 워크플로우를
 
 ## 🖼️ 결과 확인
 ### 이미지 처리 결과
-| 이미지 1 | 이미지 2 | 이미지 3 |
-|:--------:|:--------:|:--------:|
-| ![Image 1](https://github.com/user-attachments/assets/f85b6cef-d46e-49c2-8c5f-b4fb6b2c4dfb) | ![Image 2](https://github.com/user-attachments/assets/66e81e08-28e2-49ea-b2ab-c4b1273c33a3) | ![Image 3](https://github.com/user-attachments/assets/e8625275-c40d-4ac9-9273-ee964b4fa211) |
-| 이미지 4 | 이미지 5 | 이미지 6 |
-| ![Image 4](https://github.com/user-attachments/assets/b069b78f-6442-4163-9b43-02527eb72511) | ![Image 5](https://github.com/user-attachments/assets/8629dbca-de6d-4282-8153-c447c857b226) | ![Image 6](https://github.com/user-attachments/assets/e1d07141-b96f-4df0-a273-94e6fe5287c5) |
+| 이미지 1 | 이미지 2 |
+|:--------:|:--------:|
+| ![Image 1](https://github.com/user-attachments/assets/f85b6cef-d46e-49c2-8c5f-b4fb6b2c4dfb) | ![Image 2](https://github.com/user-attachments/assets/e8625275-c40d-4ac9-9273-ee964b4fa211) |
+| 이미지 3 | 이미지 4 |
+| ![Image 3](https://github.com/user-attachments/assets/8629dbca-de6d-4282-8153-c447c857b226) | ![Image 4](https://github.com/user-attachments/assets/e1d07141-b96f-4df0-a273-94e6fe5287c5) |
 ### 비디오 처리 결과
 | 비디오 1 | 비디오 2 |
 |:--------:|:--------:|
@@ -82,15 +82,10 @@ ADAS 시스템의 핵심 구성 요소를 개발하는 전체 워크플로우를
    ┣ 📓 adas_video.ipynb
    ┗ 📓 adas_model.ipynb
    ```
-
-3. **실행:**
-   - Jupyter Notebook을 실행합니다.
-   - 원하는 노트북 파일(`adas_image.ipynb`, `adas_video.ipynb`, 또는 `Project2ADAS.ipynb`)을 열어 셀을 순서대로 실행합니다.
-
-4. **모델 훈련 (선택사항):**
+3. **모델 훈련:**
    - `Project2ADAS.ipynb`를 실행하여 YOLO 모델과 차선 검출 모델을 처음부터 훈련시킬 수 있습니다.
    - 이 과정은 상당한 시간과 컴퓨팅 리소스가 필요할 수 있습니다.
 
 ## 📝 참고사항
 - YOLO 모델 훈련에는 CUDA 지원 GPU를 사용하는 것이 좋습니다.
-- 차선 검출 모델 (NestedUNet)은 `pytorch-nested-unet` 디렉토리에서 관리됩니다.
+- 차선 검출 모델 (UNet++)은 `pytorch-nested-unet` 디렉토리에서 관리됩니다.
