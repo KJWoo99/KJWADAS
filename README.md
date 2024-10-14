@@ -57,14 +57,13 @@ YOLO 모델은 `models/adas_car_detection.pt` 파일에 저장되어 있으며, 
    ```
    📂 project_root/
    ┣ 📂 models/
-   ┃ ┣ 📄 adas_car_detection.pt
+   ┃ ┣ 📄 adas_car_detection.pt # YOLO 모델 파일
    ┃ ┣ 📄 adas_lane_segmentation.pth
    ┃ ┗ 📄 config.yml
    ┣ 📂 dataset/
    ┃ ┣ 📂 images/
    ┃ ┣ 📄 video1.mp4
    ┃ ┗ 📂 processed_images/
-   ┣ 📄 yolo8.pt
    ┣ 📓 adas_image.ipynb
    ┗ 📓 adas_video.ipynb
 
