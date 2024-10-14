@@ -1,5 +1,3 @@
-네, 이해했습니다. Project2ADAS.ipynb 파일의 내용을 반영하여 README.md를 수정하겠습니다. 여기 업데이트된 버전입니다:
-
 # 🚗 ADAS (Advanced Driver Assistance Systems) 프로젝트
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green)
