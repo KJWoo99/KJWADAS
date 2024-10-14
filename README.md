@@ -1,9 +1,10 @@
+<div align="center">
+
 # 🚗 ADAS (Advanced Driver Assistance Systems) 프로젝트
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green)
-![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-red)
-![YOLO](https://img.shields.io/badge/YOLO-v8-yellow)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+
+![AutoAware Logo](https://github.com/user-attachments/assets/29708dde-6bec-4741-8185-6e4d7bf6c01c)
+
+</div>
 
 고급 운전자 보조 시스템(ADAS)을 구현한 이 프로젝트는 영상 및 이미지에서 차선과 객체를 감지하여 운전자에게 실시간으로 경고를 제공합니다. 🛣️👀
 
@@ -21,8 +22,8 @@
 
 YOLO 모델은 `models/adas_car_detection.pt` 파일에 저장되어 있으며, `ultralytics` 라이브러리를 통해 로드됩니다.
 
-### NestedUNet
-차선 검출을 위해 NestedUNet 아키텍처를 사용합니다. 이 모델은 `pytorch-nested-unet` 디렉토리에서 훈련되고 관리됩니다.
+### UNet++
+차선 검출을 위해 UNet++ 아키텍처를 사용합니다. 이 모델은 `pytorch-nested-unet` 디렉토리에서 훈련되고 관리됩니다.
 
 ## 📁 파일 설명
 ### 1. adas_model.ipynb 🔧
